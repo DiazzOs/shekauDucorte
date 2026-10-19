@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Shekau duCorte </title>
+<meta name="description" content="Barbearia em Caxias, MA. Cortes, barba e plano mensal com cortes ilimitados. Agende pelo link.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,500;0,6..96,700;1,6..96,500&family=Inter+Tight:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="#inicio">Shekau duCorte</a>
+  <nav aria-label="Principal">
+    <a href="#galeria">Galeria</a><a href="#servicos">Serviços</a><a href="#planos">Plano</a><a href="#promo">Promoção</a><a href="#onde-estamos">Onde estamos</a>
+  </nav>
+  <a class="btn btn-sm" href="#contato">Agendar horário</a>
+</header>
+
+<main id="inicio">
+<section class="hero">
+  <img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=1800&q=80&auto=format&fit=crop" alt="Barbeiro finalizando um corte na cadeira">
+  <div class="hero-txt">
+    <h1>Shekau duCorte: a precisão que o seu estilo exige.</h1>
+    <p>Cortes de precisão, barba e acabamento com preço justo. Agende seu atendimento pelo link e garanta o seu horário.</p>
+    <div class="row"><a class="btn" href="#contato">Agendar horário</a><a class="btn ghost" href="#servicos">Ver serviços</a></div>
+  </div>
+</section>
+
+<section class="filos wrap">
+  <h2 class="sr">Filosofia de corte</h2>
+  <p class="lead">O corte é um <em>fotograma</em>: precisão absoluta, sem pressa, foco no <em>seu estilo</em>. A técnica que transforma sua imagem com o cuidado que o homem moderno exige.</p>
+  <ol class="pillars">
+    <li><h3>Precisão Técnica</h3><p>Cortes desenhados para realçar o seu tipo de rosto.</p></li>
+    <li><h3>Atendimento agendado</h3><p>Escolha o dia e o horário pelo link, sem fila e sem espera.</p></li>
+    <li><h3>Preço acessível</h3><p>Cortes a partir de R$ 25 e barba, cavanhaque e pezinho por R$ 15.</p></li>
+    <li><h3>Plano mensal</h3><p>Cortes ilimitados por R$ 89,90 para manter o visual sempre em dia.</p></li>
+  </ol>
+</section>
+
+<section class="wrap" id="galeria">
+  <div class="head"><p class="kick">Portfólio</p><h2>O resultado final</h2></div>
+  <div class="reel-bar"><span id="count">1 / 3</span><div><button class="ic" id="prev" aria-label="Anterior">←</button><button class="ic" id="next" aria-label="Próximo">→</button></div></div>
+  <div class="reel" id="reel" tabindex="0" aria-label="Galeria de cortes">
+    <figure><img src="img/corte1.jpg" alt="Degradê com acabamento limpo"><figcaption><b>1A</b> Quadro 1: degradê com acabamento limpo.</figcaption></figure>
+    <figure><img loading="lazy" src="img/corte2.jpg" alt="Corte masculino com degradê e contorno definido"><figcaption><b>2A</b> Quadro 2: contorno definido e transição suave.</figcaption></figure>
+    <figure><img loading="lazy" src="img/corte3.jpg" alt="Degradê visto de perfil"><figcaption><b>3A</b> Quadro 3: degradê visto de perfil.</figcaption></figure>
+  </div>
+  <p class="note">Mais trabalhos em <a href="https://www.instagram.com/shekau_ducorte/" target="_blank" rel="noopener">@shekau_ducorte</a>.</p>
+</section>
+
+<section class="wrap menu" id="servicos">
+  <div class="head"><p class="kick">Menu</p><h2>Serviços sob medida</h2><p>Precisão em cada detalhe para manter seu estilo impecável.</p></div>
+  <div class="tabs" role="tablist">
+    <button role="tab" aria-selected="true" data-t="corte">Corte</button>
+    <button role="tab" aria-selected="false" data-t="barba">Barba</button>
+    <button role="tab" aria-selected="false" data-t="manut">Acabamento</button>
+  </div>
+  <ul class="svc">
+    <li data-g="corte"><h3>Corte social</h3><span>R$ 25</span></li>
+    <li data-g="corte"><h3>Corte degradê</h3><span>R$ 25</span></li>
+    <li data-g="corte"><h3>Corte pigmentado</h3><span>R$ 40</span></li>
+    <li data-g="barba"><h3>Barba</h3><span>R$ 15</span></li>
+    <li data-g="barba"><h3>Cavanhaque</h3><span>R$ 15</span></li>
+    <li data-g="manut"><h3>Pezinho</h3><span>R$ 15</span></li>
+  </ul>
+  <p class="note">Sobrancelha por conta da casa.</p>
+  <a class="btn" href="#contato">Agendar horário</a>
+</section>
+
+<section class="wrap plan" id="planos">
+  <div class="head"><p class="kick">Assinatura</p><h2>Assinatura Barbers</h2><p>Plano mensal com cortes ilimitados: corte quantas vezes quiser.</p></div>
+  <article class="ticket">
+    <header><span>Admissão: plano mensal</span><span></span></header>
+    <h3>Plano Mensal</h3>
+    <ul><li>Cortes ilimitados</li><li>Corte quantas vezes quiser no mês</li></ul>
+    <footer><small>Por apenas</small><p><strong>R$ 89,90</strong> /mês</p><a class="btn" href="#contato">Assinar agora</a></footer>
+  </article>
+</section>
+
+<section class="wrap promo" id="promo">
+  <div class="head"><p class="kick">Promoção</p><h2>Indique um amigo</h2><p>Convide um amigo e ganhe 24% de desconto.</p></div>
+  <article class="ticket">
+    <header><span>Combo Amigo</span><span>24% off</span></header>
+    <h3>Corte por apenas R$ 19,00</h3>
+    <p>Desconto de 24% no corte quando você indica um amigo.</p>
+    <footer><small>Válido apenas às terças e quartas-feiras.</small><a class="btn" href="#contato">Agendar com um amigo</a></footer>
+  </article>
+</section>
+
+<section class="wrap contact" id="contato">
+  <div class="head"><p class="kick">Agenda</p><h2>Agende sua visita</h2><p>Escolha o serviço e o horário. Você será levado ao WhatsApp com a mensagem pronta.</p></div>
+  <form id="form" novalidate>
+    <label>Nome<input name="nome" required autocomplete="name"></label>
+    <label>Serviço<input name="servico" required></label>
+    <label>Dia<input name="dia" type="date" required></label>
+    <label>Horário<input name="hora" type="time" required></label>
+    <label class="full">Observação (opcional)<textarea name="msg" rows="3"></textarea></label>
+    <button class="btn" type="submit">Agendar pelo WhatsApp</button>
+  </form>
+</section>
+
+<section class="wrap where" id="onde-estamos">
+  <div class="info">
+    <div class="head"><p class="kick">Estamos aqui</p><h2>Onde estamos</h2></div>
+    <p class="addr">Caxias, MA<br><span>Veja os horários disponíveis no agendamento online.</span></p>
+    <div class="row"><a class="btn" href="#contato">Ver horários</a><a class="btn ghost" href="https://maps.app.goo.gl/CriciK5r8R2RBoRo7" target="_blank" rel="noopener">Abrir no mapa</a></div>
+  </div>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7950.702497592304!2d-43.37378416836469!3d-4.880706602073436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x78e93ce185fc089%3A0x90de0f856d49e133!2sBarbearia%20do%20shekau!5e0!3m2!1spt-BR!2sbr!4v1792102683401!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+</section>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <div><strong>Shekau duCorte</strong><p></p></div>
+    <nav><a href="#contato">Agendar horário</a><a href="https://www.instagram.com/shekau_ducorte/" target="_blank" rel="noopener">@shekau_ducorte</a><a href="https://www.instagram.com/shekau_company/" target="_blank" rel="noopener"></a></nav>
+  </div>
+  <p class="copy">© 2026 Shekau duCorte. Todos os direitos reservados.</p>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>
